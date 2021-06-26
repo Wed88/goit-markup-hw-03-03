@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,28 +17,27 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-
     <!-- Header -->
 
     <header class="header">
-      <nav class="main-nav">
-        <a class="logo link" lang="en" href="./index.html"
-          ><span class="logo-web link">Web</span>Studio</a
-        >
-        <ul class="nav-list list">
-          <li class="nav-item">
-            <a class="nav-link link " href="./index.html">Студия</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link current" href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link" href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+      <div class="container header-container">
+        <nav class="main-nav">
+          <a class="logo link" lang="en" href="./"><span class="logo-web link">Web</span>Studio</a>
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a class="nav-link link current" href="./index.html">Студия</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+      </div>
     </header>
 
     <!-- Main Portfolio -->
@@ -49,7 +47,9 @@
       <!-- портфолио -->
       <section class="section-portfolio">
         <ul class="list-filter list">
-          <li class="item-filter"><button type="button" class="button-filter current">Все</button></li>
+          <li class="item-filter">
+            <button type="button" class="button-filter current">Все</button>
+          </li>
           <li class="item-filter">
             <button type="button" class="button-filter">Веб-сайты</button>
           </li>

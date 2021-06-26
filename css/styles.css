@@ -22,12 +22,51 @@ body {
   font-weight: var(--main-weight);
 }
 
-h1,h2,h3,h4,h5,h6,ul,ol,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* header */
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 
 .logo,
 .logo-web {
@@ -49,7 +88,17 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
   color: #ffffff;
 }
 
-.nav-link.current{
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-link.current {
   color: var(--accent-color);
 }
 
@@ -78,12 +127,17 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
   color: var(--second-color);
 }
 
+.mail-link {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
 /* Main */
 
 /* Hero */
 
-.section-hero{
-  background: #2F303A;
+.section-hero {
+  background: #2f303a;
 }
 
 .main-title {
@@ -93,7 +147,7 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .hero-button {
@@ -108,6 +162,7 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .hero-button:hover {
@@ -134,8 +189,8 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
 /* Чем мы занимаемся */
 /* Наша команда */
 
-.section-team{
-  background: #F5F4FA;
+.section-team {
+  background: #f5f4fa;
 }
 
 .second-title {
@@ -162,12 +217,10 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
   color: var(--second-color);
 }
 
-
-
 /* Footer */
 
-.footer{
-  background: #2F303A
+.footer {
+  background: #2f303a;
 }
 
 .map-link {
@@ -209,7 +262,7 @@ h1,h2,h3,h4,h5,h6,ul,ol,p{
   background: var(--accent-color);
 }
 
-.button-filter.current{
+.button-filter.current {
   background: var(--accent-color);
   color: #ffffff;
 }
