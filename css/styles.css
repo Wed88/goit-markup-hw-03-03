@@ -287,7 +287,17 @@ img {
 /* Footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.list-address :not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .map-link {
