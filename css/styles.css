@@ -51,6 +51,21 @@ img {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* Components */
+
+.second-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
 /* header */
 
 .header {
@@ -137,7 +152,15 @@ img {
 /* Hero */
 
 .section-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background: #2f303a;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-title {
@@ -148,12 +171,14 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .hero-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  padding: 10px 32px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -162,6 +187,7 @@ img {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   cursor: pointer;
 }
 
@@ -171,11 +197,28 @@ img {
 
 /* Особенности */
 
+.list-features {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.features-container {
+  width: 270px;
+  flex-basis: calc((100% - 120px) / 4);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
 .subtitle-features {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .text-features {
@@ -189,15 +232,38 @@ img {
 /* Чем мы занимаемся */
 /* Наша команда */
 
+.list-work {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.item-work {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
 .section-team {
   background: #f5f4fa;
 }
 
-.second-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
+.list-team {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.item-team {
+  flex-basis: calc((100% - 120px) / 4);
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.image-team {
+  margin-bottom: 30px;
 }
 
 .title-worker {
@@ -206,6 +272,7 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .team-function {
