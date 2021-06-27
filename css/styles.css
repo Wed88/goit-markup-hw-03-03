@@ -233,6 +233,10 @@ img {
 /* Чем мы занимаемся */
 /* Наша команда */
 
+.section-work {
+  padding-bottom: 94px;
+}
+
 .list-work {
   display: flex;
   flex-wrap: wrap;
@@ -327,15 +331,10 @@ img {
 
 /* Main Portfolio */
 
-.main-portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
-
 .list-filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .list-filter :not(:last-child) {
@@ -345,7 +344,7 @@ img {
 .button-filter {
   font-weight: 500;
   font-size: 16px;
-  height: 38px;
+  padding: 6px 22px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
@@ -364,7 +363,6 @@ img {
 
 .button-filter.current {
   background: var(--accent-color);
-  padding: 6px 22px;
   color: #ffffff;
 }
 
